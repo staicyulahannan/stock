@@ -1,0 +1,75 @@
+ul#casearchCodeList {
+    position: absolute;
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+       min-width: 495px;
+    text-align: left;
+    border-top: 1px solid #bfbfbf;
+    border-radius: 3px;
+    box-shadow: 0 0 3px rgb(0 0 0 / 29%);
+    z-index: 1000;
+}
+li.stocksearch-name {
+    padding: 5px 14px;
+    cursor: pointer;
+}
+.main-heading {
+    padding: 20px;
+    background-image: linear-gradient(#ecf8e8, #edf2ff);
+}
+
+.main-heading h3 {
+    font-weight: 700;
+}
+
+.search-part {
+    background-image: linear-gradient(#ecf8e8, #edf2ff);
+    padding: 110px;
+    margin: 0 auto;
+}
+
+input#castocksearchInp {
+    box-shadow: -2px 0rem 1rem 0px rgb(0 0 0 / 25%);
+    width: 100%;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.stock-search {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.search-result {
+   background: #fff;
+    margin-top: 50px;
+    box-shadow: 1px 0rem 1rem 0px hsl(0deg 0% 0% / 15%);
+    border-radius: 10px;
+}
+span.feild {
+    display: block;
+    float: left;
+    width: 119px;
+    padding: 10px 5px;
+    font-weight: 500;
+}
+
+.name-st {
+    font-size: 20px;
+    font-weight: 600;
+}
+span.det-value {
+    padding: 10px 5px;
+    display: block;
+    color: #c42e2e;
+    font-weight: 500;
+}
+.stock-search-result {
+    padding: 20px;
+}
+.row {
+    background: #e9e7e7a6;
+}
