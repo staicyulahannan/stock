@@ -1,6 +1,6 @@
 Element.prototype.addClass = function(name){if(!new RegExp(name, "gi").test(this.className)){this.className = this.className+" "+name;}return this;};
 Element.prototype.removeClass = function(name){this.className = this.className.replace(new RegExp(name, "gi"), '').replace(/ {2,}/g, ' ').replace(/^ | $/gi, ''); return this;};
-var inpChange, lastInp, ajax, Location={locId:'', pincodeId:'', loc:'',pincode:''};
+var inpChange, lastInp, ajax;
 $(document).ready(function(){
     document.getElementById('castocksearchInp').onkeyup = cReg.inputChange;
     document.getElementById('castocksearchInp').onkeydown = cReg.inputKeyDown;
