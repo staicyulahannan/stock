@@ -73,3 +73,21 @@ span.det-value {
 .row {
     background: #e9e7e7a6;
 }
+header {
+    background: #04042b;
+}
+
+header .row {
+    background: #04042b;
+}
+
+ul {
+    list-style: none;
+}
+
+header ul > li >a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
